@@ -1,0 +1,445 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@mail.com",
+      "password": "admin123",
+      "name": "Admin User",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2024-03-21T10:00:00.000Z",
+      "departmentId": "1"
+    },
+    {
+      "id": "1741604035865",
+      "name": "Mustafa Çakır",
+      "departmentId": "1",
+      "status": "active",
+      "address": "Ankara, Çankaya",
+      "createdAt": "2025-03-10T10:53:55.865Z",
+      "role": "admin",
+      "email": "mustafa@example.com",
+      "phone": "5551234567",
+      "password": "mustafa123",
+      "lastLoginDate": "2025-03-28T10:53:00.000Z"
+    },
+    {
+      "id": "1741604035866",
+      "name": "Ahmet Yılmaz",
+      "departmentId": "2",
+      "status": "active",
+      "address": "İstanbul, Kadıköy",
+      "createdAt": "2025-03-10T10:54:55.865Z",
+      "role": "manager",
+      "email": "ahmet@example.com",
+      "phone": "5551234568",
+      "password": "ahmet123",
+      "lastLoginDate": "2025-03-28T10:54:00.000Z"
+    },
+    {
+      "id": "1741604035867",
+      "name": "Ayşe Demir",
+      "departmentId": "3",
+      "status": "active",
+      "address": "İzmir, Karşıyaka",
+      "createdAt": "2025-03-10T10:55:55.865Z",
+      "role": "user",
+      "email": "ayse@example.com",
+      "phone": "5551234569",
+      "password": "ayse123",
+      "lastLoginDate": "2025-03-28T10:55:00.000Z"
+    },
+    {
+      "id": "1741604035868",
+      "name": "Mehmet Kaya",
+      "departmentId": "1",
+      "status": "active",
+      "address": "Bursa, Nilüfer",
+      "createdAt": "2025-03-10T10:56:55.865Z",
+      "role": "user",
+      "email": "mehmet@example.com",
+      "phone": "5551234570",
+      "password": "mehmet123",
+      "lastLoginDate": "2025-03-28T10:56:00.000Z"
+    },
+    {
+      "id": "1741604035869",
+      "name": "Zeynep Şahin",
+      "departmentId": "2",
+      "status": "inactive",
+      "address": "Antalya, Muratpaşa",
+      "createdAt": "2025-03-10T10:57:55.865Z",
+      "role": "user",
+      "email": "zeynep@example.com",
+      "phone": "5551234571",
+      "password": "zeynep123",
+      "lastLoginDate": "2025-03-28T10:57:00.000Z"
+    },
+    {
+      "id": "1741604035870",
+      "name": "Ali Öztürk",
+      "departmentId": "3",
+      "status": "active",
+      "address": "Eskişehir, Tepebaşı",
+      "createdAt": "2025-03-10T10:58:55.865Z",
+      "role": "manager",
+      "email": "ali@example.com",
+      "phone": "5551234572",
+      "password": "ali123",
+      "lastLoginDate": "2025-03-28T10:58:00.000Z"
+    },
+    {
+      "id": "1741604035871",
+      "name": "Fatma Yıldız",
+      "departmentId": "1",
+      "status": "active",
+      "address": "Konya, Selçuklu",
+      "createdAt": "2025-03-10T10:59:55.865Z",
+      "role": "user",
+      "email": "fatma@example.com",
+      "phone": "5551234573",
+      "password": "fatma123",
+      "lastLoginDate": "2025-03-28T10:59:00.000Z"
+    },
+    {
+      "id": "1741604035872",
+      "name": "Emre Arslan",
+      "departmentId": "2",
+      "status": "active",
+      "address": "Adana, Seyhan",
+      "createdAt": "2025-03-10T11:00:55.865Z",
+      "role": "user",
+      "email": "emre@example.com",
+      "phone": "5551234574",
+      "password": "emre123",
+      "lastLoginDate": "2025-03-28T11:00:00.000Z"
+    },
+    {
+      "id": "1741604035873",
+      "name": "Selin Aydın",
+      "departmentId": "3",
+      "status": "inactive",
+      "address": "Gaziantep, Şahinbey",
+      "createdAt": "2025-03-10T11:01:55.865Z",
+      "role": "user",
+      "email": "selin@example.com",
+      "phone": "5551234575",
+      "password": "selin123",
+      "lastLoginDate": "2025-03-28T11:01:00.000Z"
+    },
+    {
+      "id": "1741604035874",
+      "name": "Burak Çelik",
+      "departmentId": "1",
+      "status": "active",
+      "address": "Kayseri, Melikgazi",
+      "createdAt": "2025-03-10T11:02:55.865Z",
+      "role": "admin",
+      "email": "burak@example.com",
+      "phone": "5551234576",
+      "password": "burak123",
+      "lastLoginDate": "2025-03-28T11:02:00.000Z"
+    },
+    {
+      "id": "1741605688033",
+      "name": "ahmet",
+      "email": "wqdd@dqwd.com",
+      "departmentId": "2",
+      "status": "active",
+      "address": "21131asdasds",
+      "createdAt": "2025-03-10T11:21:28.033Z",
+      "lastLoginDate": "2025-03-30T11:21:00.000Z",
+      "phone": "13132121231",
+      "role": "admin"
+    },
+    {
+      "id": "1741607119659",
+      "name": "123121asd",
+      "departmentId": "1",
+      "address": "213sad",
+      "createdAt": "2025-03-10T11:45:19.659Z",
+      "lastLoginDate": "2025-03-05T11:45:00.000Z",
+      "role": "user",
+      "phone": "213231",
+      "email": "adqwwdqsas",
+      "status": "active"
+    },
+    {
+      "id": "1741610015267",
+      "name": "adawdwa",
+      "createdAt": "2025-03-10T12:33:35.267Z",
+      "status": "active",
+      "role": "user"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "IT",
+      "status": "active",
+      "createdAt": "2024-03-21T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "name": "HR",
+      "status": "active",
+      "createdAt": "2024-03-21T10:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "name": "Finance",
+      "status": "active",
+      "createdAt": "2024-03-21T11:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "name": "Marketing",
+      "status": "inactive",
+      "createdAt": "2024-03-21T12:00:00.000Z"
+    }
+  ],
+  "activities": [
+    {
+      "id": "1",
+      "userId": 1,
+      "userName": "Admin User",
+      "action": "create",
+      "description": "Yeni kullanıcı eklendi: John Doe",
+      "createdAt": "2024-03-21T11:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "userName": "Admin User",
+      "action": "update",
+      "description": "Kullanıcı güncellendi: Jane Smith",
+      "createdAt": "2024-03-21T12:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "userId": 1,
+      "userName": "Admin User",
+      "action": "create",
+      "description": "Yeni departman eklendi: Finance",
+      "createdAt": "2024-03-21T11:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "userId": 2,
+      "userName": "Normal User",
+      "action": "update",
+      "description": "Profil bilgileri güncellendi",
+      "createdAt": "2024-03-21T13:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "userId": 1,
+      "userName": "Admin User",
+      "action": "delete",
+      "description": "Kullanıcı silindi: Test User",
+      "createdAt": "2024-03-21T14:00:00.000Z"
+    },
+    {
+      "id": "c06a",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "login",
+      "description": "Kullanıcı giriş yaptı",
+      "createdAt": "2025-03-10T10:51:57.185Z"
+    },
+    {
+      "id": "3ba3",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "login",
+      "description": "Kullanıcı giriş yaptı",
+      "createdAt": "2025-03-10T10:53:03.398Z"
+    },
+    {
+      "id": "bde1",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "login",
+      "description": "Kullanıcı giriş yaptı",
+      "createdAt": "2025-03-10T11:13:07.193Z"
+    },
+    {
+      "id": "be63",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "login",
+      "description": "Kullanıcı giriş yaptı",
+      "createdAt": "2025-03-10T11:18:03.429Z"
+    },
+    {
+      "id": "7ff2",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "login",
+      "description": "Kullanıcı giriş yaptı",
+      "createdAt": "2025-03-10T11:51:24.341Z"
+    },
+    {
+      "id": "1741608186989",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "create",
+      "description": "Yeni kullanıcı eklendi: adawd",
+      "createdAt": "2025-03-10T12:03:06.989Z",
+      "details": {
+        "timestamp": 1741608186989,
+        "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+        "userRole": "admin"
+      }
+    },
+    {
+      "id": "1741608204888",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "delete",
+      "description": "Kullanıcı silindi: adawd",
+      "createdAt": "2025-03-10T12:03:24.888Z",
+      "details": {
+        "timestamp": 1741608204888,
+        "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+        "userRole": "admin"
+      }
+    },
+    {
+      "id": "1741608489477",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "create",
+      "description": "Yeni kullanıcı eklendi: qwdwq",
+      "createdAt": "2025-03-10T12:08:09.477Z",
+      "details": {
+        "timestamp": 1741608489477,
+        "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+        "userRole": "admin"
+      }
+    },
+    {
+      "id": "1741608715162",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "delete",
+      "description": "Kullanıcı silindi: qwdwq",
+      "createdAt": "2025-03-10T12:11:55.162Z",
+      "details": "{\"timestamp\":1741608715162,\"browser\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36\",\"userRole\":\"admin\"}"
+    },
+    {
+      "id": "3a3c",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "login",
+      "description": "Kullanıcı giriş yaptı",
+      "createdAt": "2025-03-10T12:12:20.879Z"
+    },
+    {
+      "id": "1741609487860",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "create",
+      "description": "Yeni kullanıcı eklendi: a",
+      "createdAt": "2025-03-10T12:24:47.860Z",
+      "details": "{\"timestamp\":1741609487860,\"browser\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36\",\"userRole\":\"admin\"}"
+    },
+    {
+      "id": "1741609489953",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "create",
+      "description": "Yeni kullanıcı eklendi: a",
+      "createdAt": "2025-03-10T12:24:49.953Z",
+      "details": "{\"timestamp\":1741609489953,\"browser\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36\",\"userRole\":\"admin\"}"
+    },
+    {
+      "id": "faa2",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "delete",
+      "description": "Kullanıcı silindi: a",
+      "createdAt": "2025-03-10T12:25:59.580Z"
+    },
+    {
+      "id": "1741609723402",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "delete",
+      "description": "Kullanıcı silindi: a",
+      "createdAt": "2025-03-10T12:28:43.402Z"
+    },
+    {
+      "id": "1741609753114",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "create",
+      "description": "Yeni kullanıcı eklendi: a",
+      "createdAt": "2025-03-10T12:29:13.114Z"
+    },
+    {
+      "id": "1741609802733",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "delete",
+      "description": "Kullanıcı silindi: a",
+      "createdAt": "2025-03-10T12:30:02.733Z"
+    },
+    {
+      "id": "1741610015282",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "create",
+      "description": "Yeni kullanıcı eklendi: adawdwa",
+      "createdAt": "2025-03-10T12:33:35.282Z"
+    },
+    {
+      "id": "0195",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "login",
+      "description": "Kullanıcı giriş yaptı",
+      "createdAt": "2025-03-10T13:10:29.461Z"
+    },
+    {
+      "id": "1741612314213",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "create",
+      "description": "Yeni kullanıcı eklendi: sadawq",
+      "createdAt": "2025-03-10T13:11:54.213Z"
+    },
+    {
+      "id": "1741612346448",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "delete",
+      "description": "Kullanıcı silindi: sadawq",
+      "createdAt": "2025-03-10T13:12:26.448Z"
+    },
+    {
+      "id": "51f9",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "login",
+      "description": "Kullanıcı giriş yaptı",
+      "createdAt": "2025-03-19T07:44:25.705Z"
+    },
+    {
+      "id": "4195",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "login",
+      "description": "Kullanıcı giriş yaptı",
+      "createdAt": "2025-03-19T08:19:47.518Z"
+    },
+    {
+      "id": "7070",
+      "userId": "1",
+      "userName": "Admin User",
+      "action": "login",
+      "description": "Kullanıcı giriş yaptı",
+      "createdAt": "2025-03-19T08:29:03.498Z"
+    }
+  ]
+}

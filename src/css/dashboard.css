@@ -1,0 +1,91 @@
+/* src/css/dashboard.css */
+
+.activities-container {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 24px;
+}
+
+.activities-container h2 {
+    color: #2c3e50;
+    font-size: 20px;
+    margin: 0 0 16px 0;
+}
+
+/* Aktiviteler listesi için scroll özelliği */
+.activities-list {
+    max-height: 400px;
+    /* Yükseklik sınırı */
+    overflow-y: auto;
+    /* Dikey scroll */
+    padding-right: 10px;
+    /* Scroll çubuğu için sağ boşluk */
+}
+
+/* Scroll çubuğu tasarımı */
+.activities-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.activities-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.activities-list::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+.activities-list::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+.activity-item {
+    padding: 16px;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    border-left: 4px solid #3498db;
+    margin-bottom: 8px;
+}
+
+.activity-item:last-child {
+    margin-bottom: 0;
+}
+
+.activity-item strong {
+    color: #2c3e50;
+}
+
+.activity-item span {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Farklı işlem tipleri için farklı renkler */
+.activity-item[data-action="create"] {
+    border-left-color: #2ecc71;
+    /* Yeşil - ekleme işlemi */
+}
+
+.activity-item[data-action="update"] {
+    border-left-color: #3498db;
+    /* Mavi - güncelleme işlemi */
+}
+
+.activity-item[data-action="delete"] {
+    border-left-color: #e74c3c;
+    /* Kırmızı - silme işlemi */
+}
+
+.activity-item[data-action="login"] {
+    border-left-color: #9b59b6;
+    /* Mor - giriş işlemi */
+}
+
+.activity-item[data-action="logout"] {
+    border-left-color: #f1c40f;
+    /* Sarı - çıkış işlemi */
+}

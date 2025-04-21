@@ -1,0 +1,214 @@
+/* src/pages/Users.css */
+.users-container {
+    padding: 24px;
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 60px);
+    /* Header yüksekliğini çıkardık */
+}
+
+.users-header {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.users-header h1 {
+    color: #2c3e50;
+    margin: 0;
+    font-size: 24px;
+}
+
+/* DataGrid özelleştirmeleri */
+.dx-datagrid {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: none !important;
+}
+
+.dx-datagrid-headers {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.dx-datagrid-headers .dx-header-row {
+    height: 50px;
+}
+
+.dx-datagrid-headers .dx-header-row>td {
+    padding: 16px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.dx-datagrid-rowsview .dx-row {
+    height: 50px;
+}
+
+.dx-datagrid-rowsview .dx-row>td {
+    padding: 16px;
+    color: #2c3e50;
+}
+
+/* Durum hücresi için özel stiller */
+.status-cell {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    text-align: center;
+    width: fit-content;
+}
+
+.status-active {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.status-inactive {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+/* Rol hücresi için özel stiller */
+.role-cell {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: 500;
+    text-align: center;
+    width: fit-content;
+}
+
+.role-admin {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+.role-user {
+    background-color: #f3e5f5;
+    color: #6a1b9a;
+}
+
+/* Popup düzenlemeleri */
+.dx-popup-wrapper .dx-popup-title {
+    background-color: #f8f9fa;
+    padding: 16px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.dx-popup-wrapper .dx-popup-content {
+    padding: 24px;
+}
+
+.dx-popup-wrapper .dx-texteditor {
+    margin-bottom: 16px;
+}
+
+.dx-popup-wrapper .dx-button {
+    margin-right: 8px;
+}
+
+/* Loading ve error durumları */
+.loading-container,
+.error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    color: #2c3e50;
+}
+
+.error-container {
+    color: #e74c3c;
+}
+
+/* DataGrid buton stilleri */
+.grid-button {
+    background: none;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #666;
+    transition: all 0.3s ease;
+}
+
+.edit-button {
+    color: #3498db;
+    /* Mavi */
+}
+
+.edit-button:hover {
+    color: #2980b9;
+    /* Koyu mavi */
+}
+
+.delete-button {
+    color: #e74c3c;
+    /* Kırmızı */
+}
+
+.delete-button:hover {
+    color: #c0392b;
+    /* Koyu kırmızı */
+}
+
+/* Buton container'ı için stil */
+.dx-command-edit {
+    text-align: center !important;
+}
+
+/* Buton arası boşluk */
+.dx-command-edit .dx-link {
+    margin: 0 5px;
+}
+
+/* Popup stilleri */
+.dx-popup-wrapper .dx-popup-title {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.dx-popup-wrapper .dx-popup-content {
+    padding: 20px;
+}
+
+/* Form element stilleri */
+.dx-texteditor.dx-editor-outlined {
+    border-color: #ddd;
+    border-radius: 4px;
+}
+
+.dx-texteditor.dx-state-hover {
+    border-color: #3498db;
+}
+
+.dx-texteditor.dx-state-focused {
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.25);
+}
+
+/* Popup buton stilleri */
+.dx-popup-wrapper .dx-button {
+    border-radius: 4px;
+    padding: 8px 16px;
+}
+
+.dx-popup-wrapper .dx-button-success {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.dx-popup-wrapper .dx-button-success:hover {
+    background-color: #27ae60;
+}
+
+.dx-popup-wrapper .dx-button-danger {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.dx-popup-wrapper .dx-button-danger:hover {
+    background-color: #c0392b;
+}
